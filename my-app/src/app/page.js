@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import axios from "axios";
 const baseUrl = process.env.BASE_URL;
 const AxiosInstance = axios.create({
-  baseURL: "http://localhost:2233",
+  baseURL: baseUrl,
 });
 
 export const getAllData = async () => {
