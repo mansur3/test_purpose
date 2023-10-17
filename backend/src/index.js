@@ -50,6 +50,7 @@ app.get("/get-all-person", (req, res) => {
   const selectAllPerson = `SELECT * FROM Persons`;
   connection.query(selectAllPerson, (err, rows, fields) => {
     if (err) throw err;
+    // consol
 
     res.status(200).send({ message: "success", data: rows });
   });
