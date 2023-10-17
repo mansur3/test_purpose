@@ -15,10 +15,6 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "wocamc-bucket-cms-uat.s3.ap-south-1.amazonaws.com",
-      },
-      {
         protocol: "http",
         hostname: "127.0.0.1",
       },
